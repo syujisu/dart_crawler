@@ -6,7 +6,6 @@ from bs4 import BeautifulSoup
 import webbrowser
 from html_table_parser import parser_functions as parser
 from pandas.io.json import json_normalize
-from openpyxl import load_workbook
 
 from bs4 import BeautifulSoup
 from selenium import webdriver
@@ -16,7 +15,7 @@ import re
 import math
 import numpy  
 import random
-import os 
+import os   
 
 #사용자에게 재무제표 년도 입력받기
 print("=" *80)
@@ -27,7 +26,7 @@ print("=" *80)
 #변수
 i= 0
 cnt = 0
-query_txt = '파일저장이름'
+query_txt = '유진기업_재무제표'
 s_year = str(input("조회 할 년도를 입력하세요(범위 : 2016 - 2020) : "))
 total_dataframe = pd.DataFrame(columns = ['접수번호', '고유번호', '종목 코드', '계정명', '개별/연결구분', '개별/연결명', '재무제표구분', '재무제표명',
        '당기명', '당기일자', '당기금액', '전기명', '전기일자', '전기금액', '계정과목 정렬순서', '당기누적금액',
@@ -35,8 +34,8 @@ total_dataframe = pd.DataFrame(columns = ['접수번호', '고유번호', '종�
 
 
 #사용자등록 인증키 / 회사 코드 
-API_KEY="인증받은 api코드"
-company_code="회사코드"
+API_KEY="fbd3f31ee413a318c81b0fe2bc0ad8b283dcfe21"
+company_code="00184667"
 
 #분기별 url 
 
