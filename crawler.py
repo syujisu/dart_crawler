@@ -34,7 +34,7 @@ total_dataframe = pd.DataFrame(columns = ['접수번호', '고유번호', '종�
 
 
 #사용자등록 인증키 / 회사 코드 
-API_KEY="fbd3f31ee413a318c81b0fe2bc0ad8b283dcfe21"
+API_KEY=""
 company_code="00184667"
 
 #분기별 url 

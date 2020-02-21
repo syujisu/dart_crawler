@@ -21,7 +21,7 @@ import json
 import pandas as pd
 
 #사용자등록 인증키 / 회사 코드 
-API_KEY="fbd3f31ee413a318c81b0fe2bc0ad8b283dcfe21"
+API_KEY=""
 #유진기업
 company_code="00184667"
 
